@@ -40,7 +40,7 @@ public class CourseAdminTest {
 
         Course course = new Course();
         course.setId(1);
-        course.setName("Java");
+        course.setName("JavaScript");
 
         courseAdmin.addCourseToStudent(student, course);
 
